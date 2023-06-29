@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Coiny', cursive;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1em;
+}
+header a{
+  text-decoration: none;
+  color: #3088e0;
+  margin: 1em;
+}
+
+.img-logo
+{
+    width: 50px;
+    height: 50px;
+}
+.banner{
+  width: 100%;
+  height: 600px;
+  animation: banner 10s infinite linear alternate;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+@keyframes banner{
+  0%,25%{
+    background-image: url(/media/banner.jpg);
+  }
+  30%, 55%{
+    background-image: url(/media/banner2.jpg);
+  }
+  60%,80%{
+    background-image: url(/media/banner3.jpg);
+  }
+  85%,100%{
+    background-image: url(/media/banner4.png);
+  }
+
+}
+.capa{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.info{
+  z-index: 1;
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+  
+}
+.info h1{
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.info p{
+  color: #c7c7c7;
+  line-height: 1.7;
+  margin-bottom: 30px;
+
+}
+.info a{
+  color: #fff;
+  text-decoration: none;
+  background: #3088e0;
+  padding: 16px 37px;
+  display: inline-block;
+  border-radius: 40px;
+
+}
+section h1{
+  text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-wrapper {
+    width: 33.33%;
+    height: 33.33%;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .embed-container {
+    position: relative;
+    padding-bottom: 60%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .iframe-container {
+    flex: 1;
+    height: 400px;
+  }
+  
+  .iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .form-container {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .form {
+    background-color: #EAFDFC;
+    padding: 20px;
+  }
+  
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    border: 1px solid #EAFDFC;
+    border-radius: 4px;
+  }
+ 
+  button[type="submit"] {
+    background-color: #82AAE3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
