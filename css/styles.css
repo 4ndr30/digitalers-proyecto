@@ -1,7 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Coiny', cursive;
+    font-family: 'Roboto', sans-serif;
+   
+}
+body{
+  background-image: url(../media/back.jpg);
 }
 header
 {
@@ -90,6 +94,7 @@ section h1{
 .container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .image-wrapper {
     width: 33.33%;
@@ -160,11 +165,44 @@ section h1{
     border-radius: 4px;
   }
  
-  button[type="submit"] {
+  button {
     background-color: #82AAE3;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    
   }
+  .children{
+    width: 400px;
+    border-radius: 5px;
+    border-style:groove;
+    margin: 5px;
+
+}
+  .children img{
+    width: 100%;
+    border-radius: 4px;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+    line-height: 1.5em;
+}
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1em;
+}
+footer a{
+  text-decoration: none;
+  color: #3088e0;
+  margin: 1em;
+}
