@@ -10,28 +10,55 @@
       href="https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
     <title>Sobre Nosotros</title>
   </head>
   <body>
     <header>
-      <div>
-        <a href="../index.html">
-          <img src="../media/logo.png" alt="logo" class="img-logo" />
-        </a>
-      </div>
-      <nav>
-        <a href="../index.html">Inicio</a>
-        <a href="#nosotros.html">Sobre Nosotros</a>
-        <a href="../pages/galeria.html"> Galeria</a>
-        <a href="../pages/e-commerce.html">E-Commerce</a>
-        <a href="../pages/contacto.html">Contacto</a>
+      <nav class="navbar navbar-expand-lg navbar-dark py-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../media/logo.png" alt="logo-andrea-ortega" class="img-fluid logo"></a>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 ">
+                <li class="nav-item mx-4">
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="#">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="./galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="./e-commerce.html">E-Commerce</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="./
+                    contacto.html">Contacto</a>
+                </li>
+                
+              </ul>
+              
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
       <section id="inicio">
         <div class="banner">
           <div class="capa"></div>
-          <div class="info">
+          <div class="text-wrap info">
             <h1>Sobre Nosotros</h1>
             <p>
               Te invitamos a conocer un poco de nuestra historia, nuestras
@@ -74,30 +101,46 @@
           personalizados.
         </p>
         <div class="embed-container">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/b6Ll8ltC67I"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/j3Zr9DFHjZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </section>
     </main>
     <footer>
-      <div>
-        <a href="../index.html">
-          <img src="../media/logo.png" alt="logo" class="img-logo" />
-        </a>
-      </div>
-      <nav>
-        <a href="../index.html">Inicio</a>
-        <a href="#nosotros.html">Sobre Nosotros</a>
-        <a href="../pages/galeria.html">Galeria</a>
-        <a href="../pages/e-commerce.html">E-Commerce</a>
-        <a href="../pages/contacto.html">Contacto</a>
+      <nav class="navbar navbar-expand-lg navbar-dark py-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../media/logo.png" alt="logo-andrea-ortega" class="img-fluid logo"></a>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 ">
+                <li class="nav-item mx-4">
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="#">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="./galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="./e-commerce.html">E-Commerce</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="./
+                    contacto.html">Contacto</a>
+                </li>
+                
+              </ul>
+              
+            </div>
+          </div>
+        </div>
       </nav>
     </footer>
   </body>
